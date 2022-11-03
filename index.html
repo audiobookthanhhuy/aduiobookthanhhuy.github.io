@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook ThanhHuy</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-book"></i> Audiobook Thanh Huy </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="giohang.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Trang chủ</a>
+                <a href="#featured">Đặc sắc</a>
+                <a href="#arrivals">Người đến xem</a>
+                <a href="#reviews">Đánh giá</a>
+                <a href="#blogs">Blogs</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="forgetpassword.html">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
+        </form>
+
+        <form action="/action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>Giảm giá đến 75% off</h3>
+                <p>Những trang sách thật hay này sẽ giúp ít cho bạn biết thêm nhiều điều trong cuộc sống tươi đẹp này !
+                </p>
+                <a href="#" class="btn">Mua sắm ngay bây giờ</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ense  -->
+
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-shipping-fast"></i>
+            <div class="content">
+                <h3>Miễn phí vận chuyển</h3>
+                <p>Đặt hàng trên 150$</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Thanh toán an toàn</h3>
+                <p>+ 100 Khoản thanh toán an toàn</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Lợi nhuận dễ dàng</h3>
+                <p>10 ngày trở lại</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>Hỗ trợ 24/12</h3>
+                <p>Gọi cho chúng tôi bất cứ lúc nào</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>Những quyển sách nổi bật</span> </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <!-- chưa link sách vào-->
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>THE ART CITY</h3>
+                        <div class="price">50$ <span>150$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>GIVE THANKS </h3>
+                        <div class="price">100$ <span>200$</span></div>
+                        <a href="#" class="btn">thêm vào giở hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>YOUR NAME</h3>
+                        <div class="price">75$ <span>145$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>YOUR TITLE GOES HERE</h3>
+                        <div class="price">85$ <span>160$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>MUSIC ROCK</h3>
+                        <div class="price">20$ <span>60$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SAMPLE TEXT</h3>
+                        <div class="price">35$ <span>70$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SAWPLE TEXT</h3>
+                        <div class="price">68$ <span>130$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>BLACK HISTERT MONTH</h3>
+                        <div class="price">80$ <span>163$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>LOVE</h3>
+                        <div class="price">65$ <span>185$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-volume-down"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>RETRO</h3>
+                        <div class="price">50$ <span>200$</span></div>
+                        <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- newsletter section starts -->
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>Đăng ký để cập nhật mới nhất</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="submit" value="subscribe" class="btn">
+        </form>
+
+    </section>
+
+    <!-- newsletter section ends -->
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <h1 class="heading"> <span>Điểm đến mới</span> </h1>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>THE ART CITY</h3>
+                        <div class="price">50$ <span>150$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>GIVE THANKS </h3>
+                        <div class="price">100$ <span>200$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>YOUR NAME</h3>
+                        <div class="price">75$ <span>145$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>YOUR TITLE GOES HERE</h3>
+                        <div class="price">85$ <span>160$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>MUSIC ROCK</h3>
+                        <div class="price">20$ <span>60$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SAMPLE TEXT</h3>
+                        <div class="price">35$ <span>70$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SAWPLE TEXT</h3>
+                        <div class="price">68$ <span>130$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>BLACK HISTERT MONTH</h3>
+                        <div class="price">80$ <span>163$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>LOVE</h3>
+                        <div class="price">65$ <span>185$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>RETRO</h3>
+                        <div class="price">50$ <span>200$</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal">
+
+        <div class="content">
+            <h3>Giao dịch trong ngày</h3>
+            <h1>Giảm giá lên đến 50%</h1>
+            <p>Những trang sách thật hay này sẽ giúp ít cho bạn biết thêm nhiều điều trong cuộc sống tươi đẹp này !</p>
+            <a href="#" class="btn">Mua sắm ngay bây giờ</a>
+        </div>
+
+        <div class="image">
+            <img src="image/deal-img.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> <span>Đánh giá của khách hàng</span> </h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/nữ.png" alt="">
+                    <h3>Yến Nhi</h3>
+                    <p>“Nếu bạn chỉ đọc những cuốn sách mà tất cả mọi người đều đọc, bạn chỉ có thể nghĩ tới điều tất cả
+                        mọi người đều nghĩ tới.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/nữ.png" alt="">
+                    <h3>Thảo Vy</h3>
+                    <p>“Sách là phép màu di động duy nhất”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/nữ.png" alt="">
+                    <h3>Thanh Huyền</h3>
+                    <p>“Việc đọc rất quan trọng. Nếu bạn biết cách đọc, cả thế giới sẽ mở ra cho bạn.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/nam.png" alt="">
+                    <h3>Văn Tuấn</h3>
+                    <p>“Trong những cuốn sách ẩn chứa linh hồn của suốt chiều dài quá khứ.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/nam.png" alt="">
+                    <h3>Gia Kiệt</h3>
+                    <p>“Những gì sách dạy chúng ta cũng giống như lửa. Chúng ta lấy nó từ nhà hàng xóm, thắp nó trong
+                        nhà ta, đem nó truyền cho người khác, và nó trở thành tài sản của tất cả mọi người.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/nam.png" alt="">
+                    <h3>Thanh Huy</h3>
+                    <p>“Tôi nghĩ cuộc sống như một cuốn sách hay. Càng đi sâu vào nó, nó càng bắt đầu có ý nghĩa.”</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> <span>Blog của chúng tôi</span> </h1>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Thư viện sách</h3>
+                        <p>Nơi đây chứa những cuốn sách về cuộc sống</p>
+                        <a href="#" class="btn">Đọc thêm</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Kho tàng sách</h3>
+                        <p>Chứa dựng những kiến thức khổng lồ.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Thiên đường sách</h3>
+                        <p>Nơi đây chứa dựng nhưng con chữ bay bổng.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Thư viện về cuộc sống</h3>
+                        <p>Chứa đựng những kỹ năng sống.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Thư viện thơ</h3>
+                        <p>Chứa đựng những câu thơ hay.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Vị trí của chúng tôi</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> VietNam </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+            </div>
+
+            <div class="box">
+                <h3>Đường dẫn liên kết</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>Liên kết phụ</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+            </div>
+
+            <div class="box">
+                <h3>Thông tin liên hệ</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +84-358-939-492 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> huyhiqua@gmail.com </a>
+                <img src="image/worldmap.png" class="map" alt="">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/Say.Meo.Meow" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader  -->
+
+    <div class="loader-container">
+        <img src="image/loader-img.gif" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
